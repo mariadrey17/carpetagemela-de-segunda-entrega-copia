@@ -1,0 +1,227 @@
+ 
+ /*Inicio estética*//*la carpeta por dios fuera de pages o de cualquier otra carpeta que no sea la principal*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    color:blanchedalmond;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+
+body {
+    background-color:rgba(23, 21, 21, 0.875);
+}
+
+
+ header {
+background-image:url(../img/fondo.jpg) ;
+background-size: cover;
+background-attachment:fixed;
+background-repeat:no-repeat ;
+
+
+}
+
+.logo { 
+    
+   
+    width:50px ;
+    height:50px ;
+    position:fixed;
+    
+     
+    }
+
+  
+        .navegacion{
+            list-style: none;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+           margin-right:2.5rem;
+            
+        }
+        .navegacion {
+            background-color: grey;
+            padding: 30px 6px 30px 15px;
+        }
+            
+             
+          
+
+
+
+li a {
+    color:rgb(243, 208, 214);
+
+}
+
+.fuente-media {
+  
+    
+    font-size:2rem ;
+    font-style: italic;
+    font-weight:lighter ;
+}
+
+ a { 
+    text-decoration-style: none;
+    text-decoration-line: none;
+ }
+ 
+
+
+/**SEPARANDO PRIMER FRAGMENTO MENU**/
+
+
+
+ 
+
+#sobre-escuela {
+
+margin-bottom:200px ;
+line-height:3;
+border-top: solid .20px rgb(243, 208, 214);
+
+}
+
+
+#castings-audiciones {
+    margin-bottom:200px ;
+    border-top: solid .20px rgb(243, 208, 214);
+     border-bottom: solid .20px  rgb(243, 208, 214); ;
+}
+p {
+    color: antiquewhite;
+    font-weight:bold ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#eventos-especiales {
+
+    margin-bottom:200px ;
+    
+}
+
+.eventos-conciertos {
+    display:flex;
+    
+    
+}
+
+h4 { 
+    color:antiquewhite
+}
+/*aca empieza docentes*/
+h3
+{
+    color:rgb(220, 59, 85);
+
+
+}
+
+
+/*empieza clases*/
+
+table {
+    color:antiquewhite;
+}
+
+
+
+
+
+
+
+#lista-desordenada {
+    color:aliceblue;
+    margin-bottom:100px ;
+    font-weight:bold ;
+}
+
+ol {
+    color: aliceblue;
+}
+
+ /** para contacto**/
+
+
+#escribe-formulario {
+    margin-bottom:400px ;
+}
+h2 {
+    color:rgb(222, 170, 179);
+    display: flex;
+    justify-content: center;
+}
+
+.caja-mala {
+   border:solid 0.20rem ;
+    padding:4rem;
+    display:inline-block;
+    font-size:1.6rem ;
+    width:1rem ;
+    height:1rem;
+    font-family:arial;
+    overflow:visible;
+    }
+ .card {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+    position:relative;
+    
+ }
+
+ .caja-flex {
+    display: flex;
+ }
+
+.adulg {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+    position:relative;
+
+}
+
+
+
+div {
+
+    margin-top:50px ;
+color:antiquewhite;
+font-weight:bolder;
+}
+
+
+.card_parrafo {
+    font-size:1rem;
+    margin-bottom:2rem ;
+}
+
+.card_image {
+    width:20rem ;
+    height:20rem ;
+}
+.boton {
+    padding :1rem;
+    margin-bottom:5rem ;
+}
+
+.mapa {
+    margin-top:2rem;
+
+}
+
+
+footer {
+    color:antiquewhite;
+}
+
